@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard Smart Assistive Glasses</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://www.gstatic.com/firebasejs/9.6.10/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.6.10/firebase-database.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Dashboard Smart Assistive Glasses</h1>
+    <p>Monitor jarak dan event untuk keamanan pengguna.</p>
+  </header>
+  
+  <section id="chart-section">
+    <h2>Grafik Jarak vs Waktu</h2>
+    <canvas id="distanceChart" width="400" height="200"></canvas>
+  </section>
+  
+  <section id="log-section">
+    <h2>Event Log</h2>
+    <ul id="eventLog"></ul>
+  </section>
+  
+  <script src="script.js"></script>
+</body>
+</html>

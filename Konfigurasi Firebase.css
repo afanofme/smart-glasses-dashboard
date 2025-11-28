@@ -1,0 +1,36 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: #f4f4f4;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+section {
+  margin-bottom: 30px;
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+#eventLog {
+  list-style-type: none;
+  padding: 0;
+}
+
+#eventLog li {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+#eventLog li:last-child {
+  border-bottom: none;
+}
