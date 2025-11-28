@@ -61,4 +61,5 @@ dataRef.on('value', (snapshot) => {
     distanceChart.data.datasets[0].data = distances;
     distanceChart.update();
   }
+
 });
